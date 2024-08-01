@@ -37,7 +37,6 @@ fig = px.choropleth(data[data["First party"] != "SF"],
 
 fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
-# Improve the legend
 fig.update_layout(coloraxis_colorbar=dict(
     thicknessmode="pixels", thickness=0.1,
     lenmode="pixels", len=150,
