@@ -24,7 +24,7 @@ button {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round, sans-serif;
+  font-family: din-round,sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: .8px;
@@ -42,8 +42,7 @@ button {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  min-width: 150px;
-  width: auto;
+  width: 90%;
 }
 
 button:after {
@@ -78,8 +77,4 @@ button:disabled {
 button:active {
   border-width: 4px 0 0;
   background: none;
-}
-
-.button-container {
-  text-align: center;
 }
